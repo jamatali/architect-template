@@ -1,0 +1,298 @@
+/* ------------------------Global------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arimo', sans-serif;
+}
+.container{
+    width: 100%;
+    padding:0 2%;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.in-line{
+    display: inline-block;
+}
+/* --------------------------------Header Start-------------------------- */
+header{
+    background-color: white;
+    padding: 16px 16px;
+    box-shadow: 0px 1px 5px 0px #b1adad;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1;
+}
+header a b{
+    font-weight: 700;
+    font-size: 19px;
+}
+header li{
+    padding: 0 3px;
+}
+header a{
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 4px;
+}
+header a:hover{
+    background-color: rgba(150, 145, 145, 0.4);
+}
+/* -----------------------header End------------------------ */
+/* -----------------------section-1 start------------------- */
+.banner{
+    background-image: url('../images/architect.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100vh; */
+    text-align: center;
+    padding: 0.1px;
+    box-sizing: border-box;
+}
+.text{
+   margin:22% auto 20%;
+}
+.text h1{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #f1f1f1;
+}
+.h1-span{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px 14px;
+}
+/* --------------------------section-2 start------------------------- */
+.section-2{
+    padding: 8px 16px;
+}
+.s2-h3{
+    padding: 32px 16px;
+}
+.s2-h3 h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #9A9A9A;
+}
+.project1{
+    padding: 0px 16px;
+}
+.col{
+    width: calc(25% - 15px);
+    position: relative;
+}
+.col1-bef::before{
+    content: "Summer House";
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+}
+.col2::before{
+    content: "Brick House";
+}
+.col3::before{
+    content: "Renovated";
+}
+.col3::before{
+    content: "Barm House";
+}
+.col5::before{
+    content: "Summer House";
+}
+.col6::before{
+    content: "Brick House";
+}
+.col7::before{
+    content: "Renovated";
+}
+.col8::before{
+    content: "Barm House";
+}
+.col-ml{
+    margin-left: 20px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.s3-p{
+    padding:5px 16px 20px;
+}
+.s3-p p{
+    font-size: 17px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    padding: 10px 0 16px;
+    color: black;
+}
+.s3-h3{
+    padding: 8px 16px 0;
+}
+.s3-h3 h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 10px 0 0;
+    padding: 16px 0 10px;
+    border-bottom: 1px solid #9A9A9A;
+}
+/* --------------------------section-3 start------------------- */
+.col-text h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.col-text p{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin: 15px 0;
+    color: black;
+}
+.col-text span{
+    color: #9A9A9A;
+}
+.col-text button{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.col-text button:hover{
+    background-color: #CCCCCC;
+}
+/* ------------------section-4------------------- */
+.section-4{
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.s4-p{
+    padding:20px 16px 5px;
+}
+.s4-p p{
+    font-size: 17px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin: 0 0 0;
+    padding: 0 0 0;
+    color: black;
+}
+.form-input{
+    width: 100%;
+    padding: 0 16px 32px;
+    box-sizing: border-box;
+}
+.form-input input{
+    width: 100%;
+    padding: 13px 8px;
+    box-sizing: border-box;
+    margin: 5px auto 15px;
+    outline: none;
+    border: 1px solid #CCCCCC;
+}
+.form-input input::placeholder{
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    color: #9A9A9A;
+}
+.form-input button{
+    border: none;
+    margin: 16px 0;
+    padding: 14px 16px;
+    background-color: black;
+    color: white;
+}
+.form-input button:hover{
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+}
+/* --------------------------section-5---------------------- */
+.section-5{
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+/* --------------------------Footer------------------------- */
+footer{
+    background-color: black;
+    padding: 32px 0;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+
+/* ----------------Media Queries---------------- */
+
+@media screen and (max-width:992px) {
+    .col{
+        width: calc(50% - 10px);
+    }
+    .col-ml1{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar{
+        display: none;
+    }
+.span-h1{
+    display: none;
+}
+.col{
+    width: 100%;
+}
+.col-ml{
+    margin-left: 0;
+}
+
+}
